@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07373E9B2A2773810051AA9B /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373E9A2A2773810051AA9B /* OnBoardingView.swift */; };
+		07373EA62A2794350051AA9B /* Statistique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373EA52A2794350051AA9B /* Statistique.swift */; };
+		07373EA82A279EB10051AA9B /* HydratationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373EA72A279EB10051AA9B /* HydratationService.swift */; };
+		07373EAA2A27A31A0051AA9B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07373EA92A27A31A0051AA9B /* UserViewModel.swift */; };
+		074E3D5D2A151F6700693077 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E3D5C2A151F6700693077 /* FavoritesView.swift */; };
+		074E3D5F2A15207800693077 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E3D5E2A15207800693077 /* CardView.swift */; };
 		075F2EE82A14FE01005D7859 /* HydratationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EE72A14FE01005D7859 /* HydratationApp.swift */; };
-		075F2EEA2A14FE01005D7859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EE92A14FE01005D7859 /* ContentView.swift */; };
+		075F2EEA2A14FE01005D7859 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EE92A14FE01005D7859 /* MainView.swift */; };
 		075F2EEC2A14FE02005D7859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075F2EEB2A14FE02005D7859 /* Assets.xcassets */; };
 		075F2EEF2A14FE02005D7859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075F2EEE2A14FE02005D7859 /* Preview Assets.xcassets */; };
+		075F2EF82A1502FB005D7859 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EF72A1502FB005D7859 /* HomeView.swift */; };
+		075F2EFA2A15034B005D7859 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EF92A15034B005D7859 /* ProfileView.swift */; };
+		075F2EFC2A1515C8005D7859 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F2EFB2A1515C8005D7859 /* User.swift */; };
+		0760FFCE2A263AFD00450D06 /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760FFCD2A263AFD00450D06 /* Quantity.swift */; };
+		0760FFD02A263BC400450D06 /* QuantityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760FFCF2A263BC400450D06 /* QuantityViewModel.swift */; };
+		0760FFD22A263E1E00450D06 /* AddQuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760FFD12A263E1E00450D06 /* AddQuantityView.swift */; };
+		0760FFD42A26480300450D06 /* DailyQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760FFD32A26480300450D06 /* DailyQuantity.swift */; };
+		0760FFD62A26489400450D06 /* DailyQuantityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760FFD52A26489400450D06 /* DailyQuantityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07373E9A2A2773810051AA9B /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		07373EA52A2794350051AA9B /* Statistique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistique.swift; sourceTree = "<group>"; };
+		07373EA72A279EB10051AA9B /* HydratationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydratationService.swift; sourceTree = "<group>"; };
+		07373EA92A27A31A0051AA9B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		074E3D5C2A151F6700693077 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		074E3D5E2A15207800693077 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		075F2EE42A14FE01005D7859 /* Hydratation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hydratation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075F2EE72A14FE01005D7859 /* HydratationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydratationApp.swift; sourceTree = "<group>"; };
-		075F2EE92A14FE01005D7859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		075F2EE92A14FE01005D7859 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		075F2EEB2A14FE02005D7859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075F2EEE2A14FE02005D7859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		075F2EF72A1502FB005D7859 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		075F2EF92A15034B005D7859 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		075F2EFB2A1515C8005D7859 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0760FFCD2A263AFD00450D06 /* Quantity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantity.swift; sourceTree = "<group>"; };
+		0760FFCF2A263BC400450D06 /* QuantityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityViewModel.swift; sourceTree = "<group>"; };
+		0760FFD12A263E1E00450D06 /* AddQuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuantityView.swift; sourceTree = "<group>"; };
+		0760FFD32A26480300450D06 /* DailyQuantity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuantity.swift; sourceTree = "<group>"; };
+		0760FFD52A26489400450D06 /* DailyQuantityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuantityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,9 @@
 		075F2EE62A14FE01005D7859 /* Hydratation */ = {
 			isa = PBXGroup;
 			children = (
+				075F2EF62A1502CB005D7859 /* Models */,
+				075F2EF52A1502B8005D7859 /* Views */,
 				075F2EE72A14FE01005D7859 /* HydratationApp.swift */,
-				075F2EE92A14FE01005D7859 /* ContentView.swift */,
 				075F2EEB2A14FE02005D7859 /* Assets.xcassets */,
 				075F2EED2A14FE02005D7859 /* Preview Content */,
 			);
@@ -65,6 +94,35 @@
 				075F2EEE2A14FE02005D7859 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		075F2EF52A1502B8005D7859 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07373EA52A2794350051AA9B /* Statistique.swift */,
+				075F2EE92A14FE01005D7859 /* MainView.swift */,
+				075F2EF72A1502FB005D7859 /* HomeView.swift */,
+				075F2EF92A15034B005D7859 /* ProfileView.swift */,
+				074E3D5C2A151F6700693077 /* FavoritesView.swift */,
+				074E3D5E2A15207800693077 /* CardView.swift */,
+				0760FFD12A263E1E00450D06 /* AddQuantityView.swift */,
+				07373E9A2A2773810051AA9B /* OnBoardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		075F2EF62A1502CB005D7859 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				075F2EFB2A1515C8005D7859 /* User.swift */,
+				0760FFCD2A263AFD00450D06 /* Quantity.swift */,
+				0760FFCF2A263BC400450D06 /* QuantityViewModel.swift */,
+				0760FFD32A26480300450D06 /* DailyQuantity.swift */,
+				0760FFD52A26489400450D06 /* DailyQuantityViewModel.swift */,
+				07373EA72A279EB10051AA9B /* HydratationService.swift */,
+				07373EA92A27A31A0051AA9B /* UserViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075F2EEA2A14FE01005D7859 /* ContentView.swift in Sources */,
+				0760FFCE2A263AFD00450D06 /* Quantity.swift in Sources */,
+				074E3D5F2A15207800693077 /* CardView.swift in Sources */,
+				07373EA62A2794350051AA9B /* Statistique.swift in Sources */,
+				075F2EFA2A15034B005D7859 /* ProfileView.swift in Sources */,
+				075F2EF82A1502FB005D7859 /* HomeView.swift in Sources */,
+				0760FFD42A26480300450D06 /* DailyQuantity.swift in Sources */,
+				074E3D5D2A151F6700693077 /* FavoritesView.swift in Sources */,
+				075F2EEA2A14FE01005D7859 /* MainView.swift in Sources */,
+				075F2EFC2A1515C8005D7859 /* User.swift in Sources */,
+				07373EAA2A27A31A0051AA9B /* UserViewModel.swift in Sources */,
+				0760FFD02A263BC400450D06 /* QuantityViewModel.swift in Sources */,
 				075F2EE82A14FE01005D7859 /* HydratationApp.swift in Sources */,
+				0760FFD22A263E1E00450D06 /* AddQuantityView.swift in Sources */,
+				0760FFD62A26489400450D06 /* DailyQuantityViewModel.swift in Sources */,
+				07373E9B2A2773810051AA9B /* OnBoardingView.swift in Sources */,
+				07373EA82A279EB10051AA9B /* HydratationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
